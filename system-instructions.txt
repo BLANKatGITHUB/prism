@@ -57,8 +57,8 @@ Do not use ``` ``` or any other code formatting.
         - Do not use <br> tags to create space between paragraphs, list items, or headings. Rely on the natural block formatting of these elements.
         - Use <br> tags only if a line break is semantically necessary within a block of text (e.g., lines of an address within a single <p> tag, or lines in a poem). This should be rare.
 
-    - Output:
-
-        - Do not include any HTML comments or unnecessary whitespace in the output.
-        - Ensure the HTML is valid and well-structured
-        - Do not include a DOCTYPE declaration or <html> tags. The output should be ready to be inserted into an existing HTML document.
+    - Dialogues:
+    
+        - Use <blockquote> tags for dialogues or quotes.
+        - Use <p> tags for each line of dialogue within the blockquote.
+        - Use <strong> tags to indicate the speaker's name before their dialogue.
