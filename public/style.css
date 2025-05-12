@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=OpenDyslexic&display=swap");
+
+body {
+  font-family: "OpenDyslexic", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+
+  line-height: 2 !important;
+  word-spacing: 3.5px !important;
+  letter-spacing: 1.35px !important;
+}
+
+.speaking {
+  background-color: #fffdd0 !important;
+  outline: 1px solid #ffcc00 !important;
+}
+
+.output p,
+.output li {
+  margin-bottom: 0.75em; 
+}
+
+.output h1,
+.output h2,
+.output h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold; 
+}
+
+.output h1 {
+  font-size: 1.8em;
+}
+
+.output h2 {
+  font-size: 1.5em;
+}
+
+.output h3 {
+  font-size: 1.2em;
+}
+
+.output ul,
+.output ol {
+  margin-left: 1.5em; 
+  margin-bottom: 1em;
+}
+
+.output strong {
+  font-weight: bold; 
+}
+
+.output a {
+  color: #007bff; 
+  text-decoration: underline; 
+}
+
+.output a:hover {
+  color: #0056b3; 
+}
